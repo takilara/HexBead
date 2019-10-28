@@ -5,7 +5,7 @@ parser.add_argument('inputfile',
 parser.add_argument('outputfile',
                     help='The filename for the outputfile.')
                     
-parser.add_argument('--colors', dest='colorcount', default=16, 
+parser.add_argument('--colors', dest='colorcount', default=16, type=int, 
                     help='Number of colors to use.')
 parser.add_argument('--size', dest='size', default=20, type=int,
                     help='Number of "rows and columns" to use.')
